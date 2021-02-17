@@ -1,8 +1,6 @@
 class EmailAddressParser
 
   def initialize(emails)
-    @emails = emails.split([" ".]+)
+    @emails = emails.split(" ")
   end
 end
-
-    
